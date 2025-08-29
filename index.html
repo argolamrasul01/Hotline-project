@@ -18,18 +18,19 @@
       type="text/css"
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="shortcut icon" href="assets/logo-dark.png" type="image/x-icon">
 
   </head>
   <body>
-    <header class="flex items-center justify-between mx-[60px] my-[25px]">
-      <div class="flex nav-1">
-        <img src="assets/logo.png" alt="logo" class="w-[50px] h-[50px] mr-2" />
+    <header class="flex flex-col sm:flex-row items-center justify-between px-4 sm:px-[60px] py-[20px]">
+      <div class="flex nav-1 sm:mb-4">
+        <img src="assets/logo.png" alt="logo" class="w-12 h-12 mr-2 sm:w-[50px] sm:h-[50px]" />
         <p class="text-[#006747] font-bold">
           Emergency <br />
           Service
         </p>
       </div>
-      <div class="flex items-center gap-5 nav-2">
+      <div class="flex flex-col items-center gap-3 sm:flex-row sm:gap-5 nav-2">
         <p class="flex">
           <span id="count" class="text-bold">0</span>
           <img src="assets/heart.png" alt="Favourite" class="w-6 h-6 ml-2" />
@@ -38,7 +39,6 @@
           <span class="text-bold" id="coin">100</span>
           <img src="assets/coin.png" alt="coin" class="w-6 h-6 ml-2" />
         </p>
-
         <p
           class="text-regular text-white bg-[#00a63e] border-solid rounded-[50px] px-8 py-3"
         >
@@ -55,12 +55,12 @@
         <img
           src="assets/logo-dark.png"
           alt="banner-png"
-          class="w-24 h-24 mt-5"
+          class="w-24 h-24 my-5"
         />
-        <p class="text-bold text-[40px] text-white">
+        <p class="text-4xl text-center text-white text-bold">
           Emergency Service Directory
         </p>
-        <p class="mb-5 text-white text-semibold">
+        <p class="mb-5 text-center text-white text-semibold">
           Government Emergency Services at Your Fingertip - A Project by
           Government of the People's Republic of Bangladesh
         </p>
@@ -68,8 +68,8 @@
     </section>
 
     <!-- card section start here -->
-    <section class="grid grid-cols-[70%_30%]">
-      <section class="grid grid-cols-3 my-12 gap-9 ml-7 mr-7">
+    <section class="grid grid-cols-1 lg:grid-cols-[70%_30%]">
+      <section class="grid grid-cols-1 gap-6 px-4 my-12 sm:grid-cols-2 lg:grid-cols-3">
         <!-- Card - 1 -->
         <div
           class="card-container bg-white shadow-lg rounded-xl flex flex-col justify-between h-full min-h-[300px] p-5"
@@ -338,7 +338,7 @@
       </section>
 
       <!-- Call History Section -->
-      <div class="mr-7 call-history">
+      <div class="mx-7 call-history">
         <div class="flex items-center justify-between my-12 mb-4">
           <p class="text-xl text-medium">
             <i class="fa-regular fa-clock"></i> Call History
