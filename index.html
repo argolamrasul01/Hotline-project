@@ -18,6 +18,7 @@
       type="text/css"
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
   </head>
   <body>
     <header class="flex items-center justify-between mx-[60px] my-[25px]">
@@ -38,11 +39,11 @@
           <img src="assets/coin.png" alt="coin" class="w-6 h-6 ml-2" />
         </p>
 
-        <button
-          class="text-regular btn text-white bg-[#00a63e] border-solid rounded-[50px]"
+        <p
+          class="text-regular text-white bg-[#00a63e] border-solid rounded-[50px] px-8 py-3"
         >
-          <span>2</span>Copy
-        </button>
+          <span id="copied-count">0</span> Copy
+        </p>
       </div>
     </header>
 
@@ -89,7 +90,7 @@
           </div>
           <div class="flex">
             <button
-              class="w-1/2 text-lg btn text-regular text-[#5C5C5C] border-solid border-[#d4d6d5] hover:bg-black hover:text-white rounded-lg mr-2"
+              class="copy-btn w-1/2 text-lg btn text-regular text-[#5C5C5C] border-solid border-[#d4d6d5] hover:bg-black hover:text-white rounded-lg mr-2"
             >
               <i class="fa-regular fa-copy"></i>Copy
             </button>
@@ -118,7 +119,7 @@
           </div>
           <div class="flex">
             <button
-              class="w-1/2 text-lg btn text-regular text-[#5C5C5C] border-solid border-[#d4d6d5] hover:bg-black hover:text-white rounded-lg mr-2"
+              class="copy-btn w-1/2 text-lg btn text-regular text-[#5C5C5C] border-solid border-[#d4d6d5] hover:bg-black hover:text-white rounded-lg mr-2"
             >
               <i class="fa-regular fa-copy"></i>Copy
             </button>
@@ -151,7 +152,7 @@
           </div>
           <div class="flex">
             <button
-              class="w-1/2 text-lg btn text-regular text-[#5C5C5C] border-solid border-[#d4d6d5] hover:bg-black hover:text-white rounded-lg mr-2"
+              class="copy-btn w-1/2 text-lg btn text-regular text-[#5C5C5C] border-solid border-[#d4d6d5] hover:bg-black hover:text-white rounded-lg mr-2"
             >
               <i class="fa-regular fa-copy"></i>Copy
             </button>
@@ -180,7 +181,7 @@
           </div>
           <div class="flex">
             <button
-              class="w-1/2 text-lg btn text-regular text-[#5C5C5C] border-solid border-[#d4d6d5] hover:bg-black hover:text-white rounded-lg mr-2">
+              class="copy-btn w-1/2 text-lg btn text-regular text-[#5C5C5C] border-solid border-[#d4d6d5] hover:bg-black hover:text-white rounded-lg mr-2">
               <i class="fa-regular fa-copy"></i>Copy
             </button>
             <button
@@ -208,7 +209,7 @@
           </div>
           <div class="flex">
             <button
-              class="w-1/2 text-lg btn text-regular text-[#5C5C5C] border-solid border-[#d4d6d5] hover:bg-black hover:text-white rounded-lg mr-2"
+              class="copy-btn w-1/2 text-lg btn text-regular text-[#5C5C5C] border-solid border-[#d4d6d5] hover:bg-black hover:text-white rounded-lg mr-2"
             >
               <i class="fa-regular fa-copy"></i>Copy
             </button>
@@ -237,7 +238,7 @@
           </div>
           <div class="flex">
             <button
-              class="w-1/2 text-lg btn text-regular text-[#5C5C5C] border-solid border-[#d4d6d5] hover:bg-black hover:text-white rounded-lg mr-2"
+              class="copy-btn w-1/2 text-lg btn text-regular text-[#5C5C5C] border-solid border-[#d4d6d5] hover:bg-black hover:text-white rounded-lg mr-2"
             >
               <i class="fa-regular fa-copy"></i>Copy
             </button>
@@ -266,7 +267,7 @@
           </div>
           <div class="flex">
             <button
-              class="w-1/2 text-lg btn text-regular text-[#5C5C5C] border-solid border-[#d4d6d5] hover:bg-black hover:text-white rounded-lg mr-2"
+              class="copy-btn w-1/2 text-lg btn text-regular text-[#5C5C5C] border-solid border-[#d4d6d5] hover:bg-black hover:text-white rounded-lg mr-2"
             >
               <i class="fa-regular fa-copy"></i>Copy
             </button>
@@ -295,7 +296,7 @@
           </div>
           <div class="flex">
             <button
-              class="w-1/2 text-lg btn text-regular text-[#5C5C5C] border-solid border-[#d4d6d5] hover:bg-black hover:text-white rounded-lg mr-2"
+              class="copy-btn w-1/2 text-lg btn text-regular text-[#5C5C5C] border-solid border-[#d4d6d5] hover:bg-black hover:text-white rounded-lg mr-2"
             >
               <i class="fa-regular fa-copy"></i>Copy
             </button>
@@ -324,7 +325,7 @@
           </div>
           <div class="flex">
             <button
-              class="w-1/2 text-lg btn text-regular text-[#5C5C5C] border-solid border-[#d4d6d5] hover:bg-black hover:text-white rounded-lg mr-2"
+              class="copy-btn w-1/2 text-lg btn text-regular text-[#5C5C5C] border-solid border-[#d4d6d5] hover:bg-black hover:text-white rounded-lg mr-2"
             >
               <i class="fa-regular fa-copy"></i>Copy
             </button>

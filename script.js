@@ -49,3 +49,17 @@ for (let i = 0; i < phones.length; i++) {
 clearBtn.addEventListener("click", function () {
   historyContainer.innerHTML = ``;
 });
+
+// Copy - count
+let count = 0;
+let copiedCount = document.getElementById("copied-count");
+const buttons = document.querySelectorAll(".copy-btn");
+for (let i = 0; i < buttons.length; i++) {
+  buttons[i].addEventListener("click", function () {
+    let number =
+      buttons[i].parentElement.parentElement.querySelector(".number").innerText;
+    navigator.clipboard.writeText(number);
+    count++;
+    copiedCount.innerText = count;
+  });
+}
